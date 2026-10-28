@@ -17,7 +17,7 @@ The project should contain "just enough" code.
 - Not LLM bloat.
 
 #### Logging
-A sane level of logging needs to be present to allow for observability tools to know when someone needs to do something. 
+A sane level of logging needs to be present to allow for other humans and observability tools to know when "someone should do something" or other intervention is required.
 #### Try/Except
 Throw exceptions when conditions aren't correct. Log the event. Consider exiting the app.
 ### Project
