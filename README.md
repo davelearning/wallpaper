@@ -41,3 +41,6 @@ Filenames should be [descriptive enough](https://axioshq.com/smart-brevity) to a
 - [ruff](https://docs.astral.sh/ruff/): An extremely fast Python linter and code formatter, written in Rust.
 - [ty](https://docs.astral.sh/ty/): An extremely fast Python type checker and language server, written in Rust.
 - Testing
+
+## Future
+Should this be turned into a template of sorts? Kneejerk says no. It's a collection of ideas. It could be tests. I mean, it _should_ be tests.
