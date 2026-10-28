@@ -15,7 +15,6 @@ The rules each project needs to adhere to.
 The project should contain "just enough" code.
 - Not Perl Golf.
 - Not LLM bloat.
-
 #### Logging
 A sane level of logging needs to be present to allow for other humans and observability tools to know when "someone should do something" or other intervention is required.
 #### Try/Except
@@ -34,12 +33,15 @@ Commit messages should be short, easy to understand, and context-specific. See t
 #### Naming convention
 Filenames should be [descriptive enough](https://axioshq.com/smart-brevity) to allow the viewer to intuit its purpose or reason for existing.
 
+#### Linting
+Use ruff to 
+
 ## Tools
 - Version control 
   - Pre-commit Hooks (Is this a practice or a tool?)
-- [uv](https://docs.astral.sh/uv/): An extremely fast Python package and project manager, written in Rust.
-- [ruff](https://docs.astral.sh/ruff/): An extremely fast Python linter and code formatter, written in Rust.
-- [ty](https://docs.astral.sh/ty/): An extremely fast Python type checker and language server, written in Rust.
+- [uv](https://docs.astral.sh/uv/) An extremely fast Python package and project manager, written in Rust.
+- [ruff](https://docs.astral.sh/ruff/) An extremely fast Python linter and code formatter, written in Rust.
+- [ty](https://docs.astral.sh/ty/) An extremely fast Python type checker and language server, written in Rust.
 - Testing
 
 ## Future
